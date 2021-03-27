@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "573920947248",
+    "project_id": "chat-me-65c42",
+    "storage_bucket": "chat-me-65c42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573920947248:android:b352f5988f6e18d2c6d1f5",
+        "android_client_info": {
+          "package_name": "com.johnnie.chat_me"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573920947248-n82fj1v7p0sb4qdvhjqgnsc2d7bdrm34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7J0lNaO61mQ42DNWyTbvcL5nmPjyrMHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573920947248-n82fj1v7p0sb4qdvhjqgnsc2d7bdrm34.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
