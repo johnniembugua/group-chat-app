@@ -50,7 +50,7 @@ class _ChatScreenState extends State<ChatScreen> {
         leading: null,
         actions: <Widget>[
           IconButton(
-              icon: Icon(Icons.close),
+              icon: Icon(Icons.logout),
               onPressed: () async {
                 //messagesStream();
                 try {
@@ -58,7 +58,7 @@ class _ChatScreenState extends State<ChatScreen> {
                 } catch (e) {
                   print(e);
                 }
-                //Navigator.pop(context);
+                Navigator.pop(context);
               }),
         ],
         title: Text('⚡️Chat'),
