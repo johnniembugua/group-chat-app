@@ -35,7 +35,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                   tag: 'logo',
                   child: Container(
                     height: 120.0,
-                    child: Image.asset('images/logo.png'),
+                    child: Image.asset('images/j.png'),
                   ),
                 ),
               ),
