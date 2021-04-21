@@ -113,7 +113,7 @@ class _SignUpState extends State<SignUp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      /* resizeToAvoidBottomPadding: false, */
+      resizeToAvoidBottomInset: true,
       body: ModalProgressHUD(
         inAsyncCall: showSpinner,
         child: Column(
@@ -180,6 +180,7 @@ class _SignUpState extends State<SignUp> {
                     onChanged: (value) {
                       email = value;
                     },
+                    keyboardType: TextInputType.emailAddress,
                     decoration: InputDecoration(
                         labelText: 'Email',
                         labelStyle: TextStyle(
@@ -284,7 +285,7 @@ class _SignUpState extends State<SignUp> {
                       ),
                       child: GestureDetector(
                         onTap: () {
-                          Navigator.pop(context);
+                          Navigator.pushNamed(context, SignInPage.id);
                         },
                         child: Center(
                           child: Text(

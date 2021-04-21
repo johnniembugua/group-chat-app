@@ -108,7 +108,7 @@ class _SignInPageState extends State<SignInPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      /* resizeToAvoidBottomPadding: false, */
+      resizeToAvoidBottomInset: true,
       body: ModalProgressHUD(
         inAsyncCall: showSpinner,
         child: Column(
@@ -161,6 +161,7 @@ class _SignInPageState extends State<SignInPage> {
                     onChanged: (value) {
                       email = value;
                     },
+                    keyboardType: TextInputType.emailAddress,
                     decoration: InputDecoration(
                         labelText: 'EMAIL',
                         hintText: 'you@gmail.com',
